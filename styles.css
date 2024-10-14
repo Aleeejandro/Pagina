@@ -1,0 +1,103 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2ede3; /* Fondo claro */
+}
+
+header {
+    background-color: #8b5e3c; /* Café oscuro */
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+    background-color: #faf4eb; /* Fondo claro */
+}
+
+h2 {
+    color: #6d4c41; /* Café medio */
+}
+
+footer {
+    background-color: #8b5e3c; /* Café oscuro */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #6d4c41; /* Café medio */
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #8b5e3c; /* Café oscuro */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #7a5034; /* Café intermedio */
+}
+
+ul.social-links {
+    list-style: none;
+    padding: 0;
+}
+
+ul.social-links li {
+    margin-bottom: 10px;
+}
+
+ul.social-links li a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #6d4c41; /* Café medio */
+    font-weight: bold;
+}
+
+ul.social-links li img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+ul.social-links li a:hover {
+    color: #8b5e3c; /* Café oscuro */
+    text-decoration: underline;
+}
